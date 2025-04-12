@@ -137,9 +137,9 @@ export default function Page() {
 
   return (
     <>
-    <Nav/>
-    <div className="container mx-auto px-4 py-8 mx-4">
-      <div className="mb-8"></div>
+      <Nav />
+      <div className="container mx-4 mx-auto px-4 py-8">
+        <div className="mb-8"></div>
         <h1 className="mb-2 text-3xl font-bold text-gray-900 dark:text-white">
           Find Your Perfect Internship
         </h1>
@@ -149,7 +149,7 @@ export default function Page() {
       </div>
 
       {/* Filter Section */}
-      <div className="mb-8 rounded-lg bg-white dark:bg-gray-800 p-6 shadow-md mx-4">
+      <div className="mx-4 mb-8 rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-4">
           <div className="col-span-2">
             <Label htmlFor="search" className="mb-2 dark:text-white">
@@ -205,9 +205,9 @@ export default function Page() {
           <Spinner size="xl" />
         </div>
       ) : (
-        <div className="grid grid-cols-1 gap-6 m-4">
+        <div className="m-4 grid grid-cols-1 gap-6">
           {filteredInternships.length === 0 ? (
-            <div className="rounded-lg bg-gray-50 dark:bg-gray-800 py-12 text-center">
+            <div className="rounded-lg bg-gray-50 py-12 text-center dark:bg-gray-800">
               <h2 className="text-xl font-semibold text-gray-700 dark:text-white">
                 No internships found
               </h2>
@@ -235,29 +235,31 @@ export default function Page() {
                       {internship.location}
                     </div>
                     <div className="mt-3 flex flex-wrap gap-3">
-                      <div className="flex items-center rounded-full bg-gray-100 dark:bg-gray-700 px-3 py-1 text-sm text-gray-600 dark:text-gray-300">
+                      <div className="flex items-center rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-600 dark:bg-gray-700 dark:text-gray-300">
                         <HiCalendar className="mr-2" />
                         {internship.duration}
                       </div>
-                      <div className="flex items-center rounded-full bg-gray-100 dark:bg-gray-700 px-3 py-1 text-sm text-gray-600 dark:text-gray-300">
+                      <div className="flex items-center rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-600 dark:bg-gray-700 dark:text-gray-300">
                         <HiCurrencyDollar className="mr-2" />
                         {internship.stipend}
                       </div>
                     </div>
                   </div>
                   <div className="mt-4 flex items-center md:mt-0">
-                    <Link href={`/internships/${internship.id}`} passHref>
+                    <Link href={`/internship/${internship.id}`} passHref>
                       <Button color="blue">View Details</Button>
                     </Link>
                   </div>
                 </div>
-                <p className="mt-4 text-gray-600 dark:text-gray-300">{internship.description}</p>
+                <p className="mt-4 text-gray-600 dark:text-gray-300">
+                  {internship.description}
+                </p>
               </Card>
             ))
           )}
         </div>
       )}
-    <Foot/>
+      <Foot />
     </>
   );
 }
