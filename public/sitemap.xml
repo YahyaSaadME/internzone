@@ -7,49 +7,37 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://internzone.vercel.app/login</loc>
-    <lastmod>2023-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://internzone.vercel.app/signup</loc>
-    <lastmod>2023-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://internzone.vercel.app/internships</loc>
     <lastmod>2023-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://internzone.vercel.app/internships/1</loc>
+    <loc>https://internzone.vercel.app/internship/1</loc>
     <lastmod>2023-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://internzone.vercel.app/internships/2</loc>
+    <loc>https://internzone.vercel.app/internship/2</loc>
     <lastmod>2023-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://internzone.vercel.app/internships/3</loc>
+    <loc>https://internzone.vercel.app/internship/3</loc>
     <lastmod>2023-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://internzone.vercel.app/internships/4</loc>
+    <loc>https://internzone.vercel.app/internship/4</loc>
     <lastmod>2023-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://internzone.vercel.app/internships/5</loc>
+    <loc>https://internzone.vercel.app/internship/5</loc>
     <lastmod>2023-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
